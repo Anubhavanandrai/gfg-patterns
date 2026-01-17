@@ -1,0 +1,41 @@
+//Hollow rectangle
+
+// in any pattern question if we will go with maths then BOOM
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter length");
+		int len=sc.nextInt();
+		System.out.println("Enter width");
+		int width=sc.nextInt();
+
+		for(int i=1; i<=width; i++)
+		{
+
+			if(i==1||i==width)
+			{
+				for(int j=1; j<=len; j++) {
+					System.out.print("* ");
+				}
+			}
+			else {
+				for(int j=1; j<=len; j++)
+				{
+					if(j==1 || j==len)
+					{
+						System.out.print("* ");
+					}
+					else {
+                    System.out.print("  ");
+                }
+				    
+				}
+			}
+			System.out.println();
+		}
+	}
+}
