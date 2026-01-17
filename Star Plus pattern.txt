@@ -1,0 +1,28 @@
+// Star "Plus" pattern
+
+// if pattern use maths : BOOM
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter length and width in different line");
+		int len=sc.nextInt();
+		int wid=sc.nextInt();
+
+		for(int i=1; i<=wid; i++) {
+			for(int j=1; j<=len; j++) {
+				if(j==(len/2)+1 || i==(wid/2)+1) {
+				
+					System.out.print("* ");
+				} else {
+
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	}
+}
