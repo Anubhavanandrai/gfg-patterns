@@ -1,4 +1,4 @@
-1. Hollow rectangle mind map
+1. Hollow rectangle mind map how to do
 ![Uploading image.png…]()
 <img width="1207" height="757" alt="Screenshot 2026-01-17 160630" src="https://github.com/user-attachments/assets/f181a1d9-fc63-4275-b156-d2893beda961" />
 
